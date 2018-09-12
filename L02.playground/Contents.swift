@@ -1,12 +1,8 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
-import PlaygroundSupport
-let  x=2;
-let y=14;
-print(x+y);
+var sum=0;
 for i in 1...100{
-    print(i);
+    sum=sum+i;
 }
-
-var str = "Hello, playground"
+print(sum);
